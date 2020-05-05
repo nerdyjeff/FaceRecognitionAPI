@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/',(req, res) => {
-    res.send(database.users);
+    res.send('It is working');
 });
 
 //and update the login table in the database
